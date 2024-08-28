@@ -37,7 +37,7 @@
   "devDependencies": {
     "@babel/plugin-transform-class-properties": "^7.25.4",
     "@babel/core": "^7.25.2",
-    "electron": "^22.3.5",
+    "electron": "^32.0.1",
     "electron-builder": "^21.0.11",
     "electron-webpack": "^2.8.2",
     "electron-webpack-vue": "^2.4.0",
