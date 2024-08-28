@@ -4,9 +4,9 @@
   "version": "0.9.1",
   "license": "MPL-2.0",
   "homepage": "https://github.com/leoding86/pixiv-omina",
-  "checkUpdateUrl": "https://raw.githubusercontent.com/leoding86/pixiv-omina/master/package.json",
+  "checkUpdateUrl": "https://raw.githubusercontent.com/adpoliak/pixiv-omina/master/package.json",
   "bugs": {
-    "url": "https://github.com/leoding86/pixiv-omina/issues"
+    "url": "https://github.com/adpoliak/pixiv-omina/issues"
   },
   "scripts": {
     "postinstall": "install-app-deps",
@@ -17,7 +17,7 @@
     "pack": "electron-builder --dir"
   },
   "dependencies": {
-    "element-ui": "^2.12.0",
+    "element-ui": "^2.15.14",
     "fs-extra": "^8.1.0",
     "gif-encoder": "^0.7.2",
     "jimp": "^0.8.5",
@@ -30,19 +30,20 @@
     "source-map-support": "^0.5.12",
     "sqlite3": "^5.0.0",
     "uuid": "^8.3.2",
-    "vue": "^2.6.10",
-    "vue-i18n": "^8.15.3",
-    "vue-virtual-scroller": "^1.0.0-rc.2"
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.14.0",
+    "vue-virtual-scroller": "^1.1.2"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.7.0",
-    "electron": "^6.1.5",
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/core": "^7.25.2",
+    "electron": "^22.3.5",
     "electron-builder": "^21.0.11",
-    "electron-webpack": "^2.7.4",
-    "electron-webpack-vue": "^2.3.0",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0",
-    "webpack": "~4.35.3"
+    "electron-webpack": "^2.8.2",
+    "electron-webpack-vue": "^2.4.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "webpack": "^5.94.0"
   },
   "build": {
     "appId": "pixiv_omina.leo",
