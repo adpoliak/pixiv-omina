@@ -38,7 +38,7 @@
     "@babel/plugin-transform-class-properties": "^7.25.4",
     "@babel/core": "^7.25.2",
     "electron": "^32.0.2",
-    "electron-builder": "^24.13.3",
+    "electron-builder": "^25.0.5",
     "electron-webpack": "^2.8.2",
     "electron-webpack-vue": "^2.4.0",
     "sass": "^1.77.8",
