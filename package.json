@@ -3,7 +3,7 @@
   "productName": "Pixiv Omina",
   "version": "0.9.1",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/leoding86/pixiv-omina",
+  "homepage": "https://github.com/adpoliak/pixiv-omina",
   "checkUpdateUrl": "https://raw.githubusercontent.com/adpoliak/pixiv-omina/master/package.json",
   "bugs": {
     "url": "https://github.com/adpoliak/pixiv-omina/issues"
@@ -44,6 +44,9 @@
     "sass": "^1.78.0",
     "sass-loader": "^16.0.1",
     "webpack": "^5.94.0"
+  },
+  "resolutions": {
+    "**/ip": "https://registry.npmjs.org/neoip/-/neoip-2.1.0.tgz"
   },
   "build": {
     "appId": "pixiv_omina.leo",
