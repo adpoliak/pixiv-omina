@@ -46,7 +46,8 @@
     "webpack": "^5.94.0"
   },
   "resolutions": {
-    "**/ip": "https://registry.npmjs.org/neoip/-/neoip-2.1.0.tgz"
+    "**/ip": "https://registry.npmjs.org/neoip/-/neoip-2.1.0.tgz",
+    "**/html-minifier": "https://registry.npmjs.org/html-minifier-terser/-/html-minifier-terser-7.2.0.tgz"
   },
   "build": {
     "appId": "pixiv_omina.leo",
