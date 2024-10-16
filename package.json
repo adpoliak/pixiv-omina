@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-class-properties": "^7.25.4",
-    "@babel/core": "^7.25.2",
+    "@babel/core": "^7.25.8",
     "electron": "^32.2.0",
     "electron-builder": "^25.0.5",
     "electron-webpack": "^2.8.2",
