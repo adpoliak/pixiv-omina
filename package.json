@@ -41,7 +41,7 @@
     "electron-builder": "^25.1.8",
     "electron-webpack": "^2.8.2",
     "electron-webpack-vue": "^2.4.0",
-    "sass": "^1.79.4",
+    "sass": "^1.79.5",
     "sass-loader": "^16.0.2",
     "webpack": "^5.95.0"
   },
